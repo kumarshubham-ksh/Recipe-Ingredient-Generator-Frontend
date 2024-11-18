@@ -12,9 +12,12 @@ function App() {
 
   const fetchIngredients = async () => {
     try {
-      const response = await axios.post("http://127.0.0.1:5000/predict", {
-        description,
-      });
+      const response = await axios.post(
+        "https://recipe-ingredient-generator-backend.onrender.com/predict",
+        {
+          description,
+        }
+      );
       setIngredients(response.data.ingredients);
     } catch (error) {
       console.error("Error fetching ingredients:", error);
