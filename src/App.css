@@ -1,0 +1,63 @@
+body {
+  background-color: lightgoldenrodyellow;
+  color: maroon;
+}
+
+.App {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 40px;
+}
+
+textarea {
+  background-color: lightgoldenrodyellow;
+  color: maroon;
+  width: 30%;
+  height: 25px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 2px solid maroon;
+}
+
+textarea::placeholder {
+  color: maroon;
+}
+
+button {
+  background-color: maroon;
+  color: lightgoldenrodyellow;
+  display: flex;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  margin-left: 44.5%;
+  margin-bottom: 60px;
+  border-radius: 30px;
+  border: 2px solid maroon;
+}
+
+button:hover {
+  background-color: lightgoldenrodyellow;
+  color: maroon;
+  border: 2px solid maroon;
+}
+
+ul {
+  color: lightgoldenrodyellow;
+  list-style: none;
+  padding: 0;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+li {
+  background-color: maroon;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 17px;
+}
